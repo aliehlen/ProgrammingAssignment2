@@ -1,9 +1,6 @@
-## These functions (1) create an object for handling a matrix with a cached 
-## inverse (with functions and associated environment for creating the matrix, 
-## returning the matrix, getting the matrix's inverse, and setting the matrix's 
-## inverse) and (2) getting the inverse of a 'cached' matrix (i.e. checking if
-## inverse has already been cached and, if not, calculating it)
-## 
+## These functions allow creation of 'cached matrix' object, which can store
+## both a matrix and its inverse (once computed) so duplcicated computation
+## of the matrix can be minimized.
 
 ## Sets up a set of functions to handle creating and storing and cached matrix, 
 ## as well as getting and storing its inverse. Also provides environmental in 
