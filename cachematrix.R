@@ -3,7 +3,7 @@
 ## of the matrix can be minimized.
 
 ## Sets up a set of functions to handle creating and storing and cached matrix, 
-## as well as getting and storing its inverse. Also provides environmental in 
+## as well as getting and storing its inverse. Also provides environment in 
 ## which the matrix and its inverse are stored.
 
 makeCacheMatrix <- function(x = matrix()) {
